@@ -1,0 +1,356 @@
+.buttonsb {
+	width: 37%;
+	margin: 0px auto;
+	padding-top: 17%;
+}
+.searchb {
+	  width: 45%;
+	   float:left;
+}
+ input[type="text"] {
+	float: left;
+	font-size: 1.1em;
+	color: #fff;
+	background: #8A76E7;
+	padding: 15px 15px;
+	width: 61%;
+	outline:none;
+	border:none;
+	box-shadow: #6958B4 0 4px 0px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+input[type="submit"] {
+	background: url(../images/search.png) no-repeat #7E67D9 14px 14px;
+	text-indent: -9999px;
+	padding: 18px 25px;
+	float: left;
+	margin-left: 0px;
+	cursor:pointer;
+	box-shadow: #6958B4 0 4px 0px;
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	outline: none;
+	border: none;
+}
+.span1b {
+	 width: 41%;
+	  float:right;
+	  margin-top: 14px;
+}
+.span1b i {
+	position:relative;
+	border-left:solid 1px #25418D;
+	font-size: 1.1em;
+	color: #fff;
+	background:#3257BC;
+	padding: 15px 76px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+}
+.span1b i:active {
+	top:3px;
+	background:#3257BC;
+	-webkit-box-shadow: inset 0px 1px 0px #3257BC, 0px 2px 0px 0px #25418D, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #3257BC, 0px 2px 0px 0px #25418D, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #3257BC, 0px 2px 0px 0px #25418D, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #3257BC, 0px 2px 0px 0px #25418D, 0px 5px 3px #363747;
+}
+
+.span1b i::before {
+	background: url(../images/home.png) no-repeat #2C51B7 14px 14px;
+	content:"";
+	float:right;
+	padding: 46px 26px;
+	position:absolute;
+	display:block;
+	padding-top:8px;
+	top:0px;
+	right:-36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#8fd1ea;
+	text-shadow:1px 1px 0px #07526e;
+	border-right:solid 1px #25418D;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-webkit-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+}
+
+.span1b i:active::before {
+	top:-3px;
+	-webkit-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #3257BC, 0px 5px 0px 0px #25418D, 2px 10px 5px #363747;
+}
+.span2b {
+	  width: 41%;
+	  float:left;
+	  margin-top: 15%;
+}
+.span2b i {
+	position:relative;
+	border-left:solid 1px #C64442;
+	font-size: 1.1em;
+	color: #fff;
+	background:#DF5553;
+	padding: 15px 76px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span2b i:active {
+	top:3px;
+-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 2px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+
+.span2b i::before {
+	background: url(../images/contact.png) no-repeat #DB4D4B 14px 14px;
+	content:"";
+	float:right;
+	padding: 46px 26px;
+	position:absolute;
+	display:block;
+	padding-top:8px;
+	top:0px;
+	right:-36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#8fd1ea;
+	text-shadow:1px 1px 0px #07526e;
+	border-right:solid 1px #C64442;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span2b i:active::before {
+	top:-3px;
+	-webkit-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #DF5553, 0px 5px 0px 0px #C64442, 2px 10px 5px #363747;
+}
+.span3b {
+	 width: 41%;
+	  float:right;
+	  margin-top: 15%;
+}
+.span3b i {
+	position:relative;
+	border-left:solid 1px #E7577A;
+	font-size: 1.1em;
+	color: #fff;
+	background:#E7577A;
+	padding: 15px 76px;
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+.span3b i:active {
+	top:3px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 2px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+
+.span3b i::before {
+	background: url(../images/art.png) no-repeat #DF4C70 14px 17px;
+	content:"";
+	float:right;
+	padding: 46px 26px;
+	position:absolute;
+	display:block;
+	padding-top:8px;
+	top:0px;
+	right:-36px;
+	font-size:16px;
+	font-weight:bold;
+	color:#8fd1ea;
+	text-shadow:1px 1px 0px #07526e;
+	border-right:solid 1px #C64442;
+	border-radius:0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-webkit-border-radius:0 5px 5px 0;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+.span3b i:active::before {
+	top:-3px;
+	-webkit-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-moz-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	-o-box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+	box-shadow: inset 0px 1px 0px #E7577A, 0px 5px 0px 0px #CF3D60, 2px 10px 5px #363747;
+}
+/*end-button*/
+
+/*end-footer*/
+/*-----start-responsive-design------*/
+@media only screen and (max-width: 1440px){
+	.buttons {
+		width: 41%;
+	}
+}
+@media only screen and (max-width: 1366px){
+	.buttons {
+		width: 44%;
+	}
+}
+@media only screen and (max-width: 1280px){
+	.buttons {
+		width: 47%;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.buttons {
+		width: 59%;
+	}
+}
+@media only screen and (max-width: 800px){
+	.buttons {
+		width: 75%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.buttonsb {
+		width: 82%;
+	}
+	.searchb {
+		width: 51%;
+	}
+	input[type="text"] {
+		width: 54%;
+		padding: 16px 15px;
+	}
+	input[type="submit"] {
+		padding: 19px 25px;
+	}
+	.span1b,.span3b {
+		width: 44%;
+	}
+	.span1b i,.span2b i,.span3b i {
+		padding: 15px 61px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.buttonsb {
+		width: 83%;
+	}
+	.searchb {
+		width: 50%;
+	}
+	input[type="text"] {
+		width: 43%;
+		padding: 12px 15px;
+	}
+	input[type="submit"] {
+		padding: 15px 25px;
+	}
+	.span1b,.span3b {
+		width: 44%;
+	}
+	.span2b i{
+		padding: 11px 36px;
+	}
+	.span1b i,.span3 i {
+		padding: 11px 41px;
+	}
+	.span1b i::before{
+		padding: 23px 26px;
+		background: url(../images/home.png) no-repeat #2C51B7 14px 11px;
+	}
+	.span2b i::before{
+		padding: 23px 26px;
+		background: url(../images/contact.png) no-repeat #DB4D4B 14px 11px;
+	}
+	.span3b i::before{
+		padding: 23px 26px;
+		background: url(../images/art.png) no-repeat #DF4C70 14px 11px;
+	}
+}
+@media only screen and (max-width: 320px){
+	.buttonsb {
+		width: 94%;
+	}
+	.searchb {
+		width: 50%;
+	}
+	input[type="text"] {
+		width: 34%;
+		padding: 12px 15px;
+		font-size: 0.8em;
+	}
+	input[type="submit"] {
+		padding: 12px 25px;
+		background: url(../images/search.png) no-repeat #7E67D9 14px 8px;
+	}
+	.span1b{
+		width: 48%;
+		margin-top: 12px;
+	}
+	.span3b {
+		width: 48%;
+	}
+	.span1b i,.span3b i {
+		padding: 11px 34px;
+		font-size: 0.8em;
+	}
+	.span2b i {
+		padding: 11px 28px;
+		font-size: 0.8em;
+	}
+	.span1b i::before{
+		padding: 20px 24px;
+		background: url(../images/home.png) no-repeat #2C51B7 14px 7px;
+	}
+	.span2b i::before{
+		padding: 20px 24px;
+		background: url(../images/contact.png) no-repeat #DB4D4B 14px 7px;
+	}
+	.span3b i::before{
+		padding: 20px 24px;
+		background: url(../images/art.png) no-repeat #DF4C70 14px 7px;
+	}
+}
